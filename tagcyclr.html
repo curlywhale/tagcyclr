@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tagcyclr</title>
+
+    <style>
+        body {
+            background-color: #1a1a1a; /* Dark grey background */
+            color: #fff; /* White text */
+            font-family: 'Lucida Console', sans-serif; /* Choose your preferred font */
+            letter-spacing: 0px; /* Adjust the letter spacing as needed */
+        }
+
+        /* Additional styles for your content can be added here */
+    </style>
+</head>
+<body>
+    <h1>tagcyclr</h1>
+    <form id="hashtagForm">
+        <label>select themes:</label><br>
+        <input type="checkbox" name="theme" value="nature"> nature<br>
+        <input type="checkbox" name="theme" value="forest"> forest<br>
+        <input type="checkbox" name="theme" value="sea"> sea<br>
+        <input type="checkbox" name="theme" value="sun"> sun<br>
+        <input type="checkbox" name="theme" value="astro"> astro<br>
+        <input type="checkbox" name="theme" value="moon"> moon<br>
+        <input type="checkbox" name="theme" value="travel"> travel<br>
+        <input type="checkbox" name="theme" value="australia"> australia<br>
+        <input type="checkbox" name="theme" value="portrait"> portrait<br>
+        <input type="checkbox" name="theme" value="fujifilm"> fujifilm<br>
+        <input type="checkbox" name="theme" value="tone"> tone<br>
+        <input type="checkbox" name="theme" value="mag"> mag<br>
+        <input type="checkbox" name="theme" value="minimal"> minimal<br>
+        <input type="checkbox" name="theme" value="ig"> ig<br>
+        <br>
+        <label for="numHashtags">number of hashtags:</label>
+        <input type="number" id="numHashtags" name="numHashtags" min="1" max="30" value="5">
+        <br>
+        <button type="button" onclick="generateHashtags()">generate tag list</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
