@@ -75,6 +75,13 @@ const hashtagLists = {
     '#bigworld_shotz', '#ourvisualvibes', '#chasingleitz', '#darkroom_daydream', '#photooftheday',
     '#photosession', '#igdaily', '#igers', '#ig_today', '#igersfrance'],
     video: ['#clipoftheday', '#videooftheday', '#reels'],
+    architecture: [
+    '#palacelife', '#architecture', '#design', '#interiordesign', '#architecturephotography',
+    '#architecturelovers', '#homedecor', '#archilovers', '#building', '#qrauitectura', '#homedesign',
+    '#decoration', '#history', '#architettura', '#inspiration', '#architektur', '#archimasters',
+    '#ic_architecture', '#icu_architecture', '#archi_features', '#arch_impressive', '#arc_only',
+    '#architecture_hunter', '#architecture_now', '#archiobjects', '#objectsmag', '#archiromantix',
+    '#thinkingarchitecture', '#archdaily', '#architizer'],
 };
 
 function copyToClipboard(text) {
