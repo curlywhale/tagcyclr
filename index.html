@@ -12,6 +12,16 @@
             font-family: 'Lucida Console', sans-serif; /* Choose your preferred font */
             letter-spacing: 0px; /* Adjust the letter spacing as needed */
         }
+        
+        /* Tighten spacing for travel ideas */
+        #travelIdeas h2 {
+            margin-bottom: 5px; /* Small space below the title */
+        }
+        
+        #travelIdeas p {
+            margin: 2px 0; /* Less space between hashtags */
+            line-height: 1.2; /* Slightly tighter line height */
+        }
 
         /* Additional styles for your content can be added here */
     </style>
@@ -37,6 +47,7 @@
         <input type="checkbox" name="theme" value="minimal"> minimal<br>
         <input type="checkbox" name="theme" value="ig"> ig<br>
         <input type="checkbox" name="theme" value="video"> video<br>
+        <input type="checkbox" name="theme" value="architecture"> architecture<br>
         <br>
         <label for="numHashtags">number of hashtags:</label>
         <input type="number" id="numHashtags" name="numHashtags" min="1" max="30" value="5">
@@ -50,6 +61,21 @@
         <button id="copyButton" type="button" disabled>copy to clipboard</button>
     </form>
     <div id="result"></div>
+    
+    <!-- New Section for Travel Ideas -->
+    <div id="travelIdeas" style="margin-top: 50px;">
+        <h2>Travel ideas</h2>
+        <p>#browsing…</p>
+        <p>#…365</p>
+        <p>#…top</p>
+        <p>#igers…</p>
+        <p>#discover…</p>
+        <p>#visit…</p>
+        <p>#…_bestphoto</p>
+        <p>#…gram</p>
+        <p>#…view</p>
+        <p>#…_super_pics</p>
+    </div>
     <script src="script.js"></script>
     <script>
         function setNumHashtags(num) {
